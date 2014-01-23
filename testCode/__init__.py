@@ -1,6 +1,21 @@
 from maps import MapPractice
+from recursion import recursion
 
-self = MapPractice()
+self = recursion()
+
+recursion.writeNums(self, 1)
+print "\n"
+recursion.writeNums(self, 2)
+print "\n"
+recursion.writeNums(self, 5)
+print "\n"
+recursion.writeNums(self, 12)
+print "\n"
+
+
+# Maps test code
+
+#self = MapPractice()
 
 # Code for containsThree
 #first = ["to", "be", "or", "not", "to", "be", "hamlet"]
