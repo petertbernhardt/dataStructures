@@ -3,14 +3,24 @@ from recursion import recursion
 
 self = recursion()
 
-recursion.writeNums(self, 1)
-print "\n"
-recursion.writeNums(self, 2)
-print "\n"
-recursion.writeNums(self, 5)
-print "\n"
-recursion.writeNums(self, 12)
-print "\n"
+# Code for calculating the power
+print recursion.pow(self, 2, 4)
+
+# Code for writing the fibonacci sequence n times
+#print recursion.fibonacci(self, 1)
+#print recursion.fibonacci(self, 3)
+#print recursion.fibonacci(self, 5)
+#print recursion.fibonacci(self, 7)
+
+# Code for writing numbers in order
+#recursion.writeNums(self, 1)
+#print "\n"
+#recursion.writeNums(self, 2)
+#print "\n"
+#recursion.writeNums(self, 5)
+#print "\n"
+#recursion.writeNums(self, 12)
+#print "\n"
 
 
 # Maps test code
